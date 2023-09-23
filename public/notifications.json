@@ -4,23 +4,38 @@
     "link": "/explore",
     "description": "Coding Workshop: Building Web Applications..."
   },
+
+
+
+
   {
+
+    
     "title": "Oxford School Just Shared Their New Post!",
     "link": "/explore",
     "description": "We are thrilled to announce the appointment of..."
   },
   {
     "title": "Join the New Illustration Competetion!",
+
+
     "link": "/events/competetions/illustrationcompetetion",
+
+
+
     "description": "The International Level Competetion is live soon! Register..."
   },
   {
     "title": "Join the Research Webinar with Professor John",
     "link": "/events/webinars/mathematicssymposium",
+
+
     "description": "Explore advanced mathematical concepts and theories..."
+
   },
   {
     "title": "Science Workshop!",
+
     "link": "/events/workshops/scienceworkshop",
     "description": "We are the leading science society of this generation, Introducing..."
   }
