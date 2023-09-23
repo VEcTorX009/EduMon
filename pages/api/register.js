@@ -9,7 +9,9 @@ export default async function handler(req, res) {
 
       const collection = db.collection("users");
 
-      const existingUser = await collection.findOne({ "email.emailAddress": email[0].emailAddress });
+      const existingUser = await collection.findOne({
+        "email.emailAddress": email[0].emailAddress,
+      });
 
       if (existingUser) {
         ("User found and updated");
@@ -23,7 +25,7 @@ export default async function handler(req, res) {
       }
 
       client.close();
-      
+
       res.status(200).json({ message: "User registration/update successful!" });
     } catch (error) {
       console.error("Error:", error);
