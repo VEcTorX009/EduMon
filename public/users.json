@@ -18,16 +18,22 @@
           "status": "verified",
           "strategy": "from_oauth_google",
           "nonce": null,
+
           "externalVerificationRedirectURL": null,
           "attempts": null,
+
           "expireAt": "2023-09-08T13:41:09.423Z",
+
           "error": null
         }
       }
     ],
     "imageurl": "https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL2ltYWdlcy5jbGVyay5kZXYvb2F1dGhfZ29vZ2xlL2ltZ18yVXlobkxFUTJQZjNFbVVrU295cmNpTUtRRFMucG5nIn0"
+
   },
   {
+
+    
     "name": "Vector",
     "email": [
       {
