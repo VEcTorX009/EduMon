@@ -19,7 +19,7 @@ export default async function handler(req, res) {
       }
 
       const collection = db.collection(collectionName);
-(db.databaseName)
+      db.databaseName;
       let query;
       if (type === "club") {
         query = { name: clubName };

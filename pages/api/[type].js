@@ -6,9 +6,8 @@ export default async function handler(req, res) {
   try {
     const { client, db } = await connectToDatabase();
 
-    const collectionName = type; // Use the type as the collection name
+    const collectionName = type; 
     const collection = db.collection(collectionName);
-    // Query the collection to get the data you need
     const data = await collection.find({}).toArray();
     
 
