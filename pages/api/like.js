@@ -19,7 +19,7 @@ export default async function handler(req, res) {
         return res.status(404).json({ error: "Post not found" });
       }
 
-      // Increment the likes count
+      
       await collection.updateOne({ _id: postObjectId }, { $inc: { likes: 1 } });
 
       console.log("Post likes incremented successfully");
