@@ -31,17 +31,14 @@ export default function Home({ setLoading }) {
     }, 5000);
   }, []);
   function formatDate(inputDate) {
-    // Split the input date using slashes and convert it to an array [day, month, year]
     const dateParts = inputDate.split("/").map((part) => parseInt(part, 10));
 
     if (dateParts.length !== 3) {
-      return "Invalid date format"; // Handle invalid input format
+      return "Invalid date format"; 
     }
 
-    // Extract day, month, and year from the array
     const [day, month, year] = dateParts;
 
-    // Define an array of month names for formatting
     const monthNames = [
       "Jan",
       "Feb",
