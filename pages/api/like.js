@@ -1,5 +1,5 @@
 import { connectToDatabase } from "../../mongodb";
-import { ObjectId } from "mongodb"; // Use ObjectId from the 'mongodb' package
+import { ObjectId } from "mongodb"; 
 
 export default async function handler(req, res) {
   if (req.method === "POST") {
@@ -10,7 +10,6 @@ export default async function handler(req, res) {
       const { db } = await connectToDatabase();
       const collection = db.collection("posts");
 
-      // Convert postId to ObjectId
       const postObjectId = new ObjectId(postId);
 
       const post = await collection.findOne({ _id: postObjectId });
