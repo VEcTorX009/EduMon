@@ -6,7 +6,7 @@ import React, { useEffect, useState } from "react";
 import CustomLoader from "./CustomLoader";
 import { fetchData } from "./fetchData";
 
-export default function navbar({setLoading}) {
+export default function navbar({ setLoading }) {
   const [data, setData] = useState([]);
   const [showbtn, setShowbtn] = useState(false);
   const initialTodos = [
@@ -26,7 +26,7 @@ export default function navbar({setLoading}) {
   const [tasks, setTasks] = useState(initialTodos);
   const [completedTasks, setCompletedTasks] = useState([]);
   const app = useRouter();
-const [showai, setShowai] = useState(false)
+  const [showai, setShowai] = useState(false);
   useEffect(() => {
     Promise.all([fetchData("notifications")])
       .then(([data]) => {
@@ -46,7 +46,6 @@ const [showai, setShowai] = useState(false)
 
   const addTodo = () => {
     if (temp.title.trim() === "") {
-      // Don't add empty tasks
       return;
     }
 
@@ -66,7 +65,7 @@ const [showai, setShowai] = useState(false)
     setShowbtn(false);
   };
   const addaiTodo = () => {
-    setLoading(true)
+    setLoading(true);
     const newTasks = [
       {
         title: "Start Skimming through trignometry notes",
@@ -85,24 +84,23 @@ const [showai, setShowai] = useState(false)
         assigned: "EduMon",
       },
     ];
-  
+
     setTasks((prevTasks) => [...prevTasks, ...newTasks]);
-  
+
     setTemp({
       title: "",
       assigned: "You",
     });
-  
+
     setShowbtn(false);
-    
-    setShowai(false)
+
+    setShowai(false);
     setShowbtn(false);
     setTimeout(() => {
-    setLoading(false)
-      
+      setLoading(false);
     }, 3000);
   };
-  
+
   const handleKeyDown = (event) => {
     if (event.key === "Enter") {
       addTodo();
@@ -118,11 +116,11 @@ const [showai, setShowai] = useState(false)
       setCompletedTasks((prevCompletedTasks) => [...prevCompletedTasks, index]);
     }
   };
-  const handleai=(event)=>{
+  const handleai = (event) => {
     if (event.key === "Enter") {
       addaiTodo();
     }
-  }
+  };
 
   return (
     <>
@@ -218,7 +216,9 @@ const [showai, setShowai] = useState(false)
               return (
                 <div
                   key={index}
-                  className={`flex ${e.assigned === "EduMon"? " fade": ""} rounded-xl flex-row cursor-pointer space-x-3 p-2 border border-gray-600 ${
+                  className={`flex ${
+                    e.assigned === "EduMon" ? " fade" : ""
+                  } rounded-xl flex-row cursor-pointer space-x-3 p-2 border border-gray-600 ${
                     isCompleted ? "line-through text-gray-400" : ""
                   }`}
                 >
@@ -268,21 +268,21 @@ const [showai, setShowai] = useState(false)
                 ASK EDUMON
               </button>
             )}
-      {showai && (
-        <div className="flex flex-col space-y-4">
-          <input
-            type="text"
-            value={fake}
-            name="task"
-            aria-multiline={true}
-            id="task"
-            onKeyDown={handleai}
-            onChange={(e) => setFake(e.target.value)}
-            placeholder="What do you want to get done?"
-            className="h-full w-[284px] border border-gray-600 rounded-2xl text-xl text-white bg-transparent backdrop-blur-3xl font-poppins pageentry p-2"
-          ></input>
-        </div>
-      )}
+            {showai && (
+              <div className="flex flex-col space-y-4">
+                <input
+                  type="text"
+                  value={fake}
+                  name="task"
+                  aria-multiline={true}
+                  id="task"
+                  onKeyDown={handleai}
+                  onChange={(e) => setFake(e.target.value)}
+                  placeholder="What do you want to get done?"
+                  className="h-full w-[284px] border border-gray-600 rounded-2xl text-xl text-white bg-transparent backdrop-blur-3xl font-poppins pageentry p-2"
+                ></input>
+              </div>
+            )}
           </div>
         </div>
       </div>
