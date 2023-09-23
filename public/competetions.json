@@ -48,11 +48,11 @@
     "members": [
       {
         "name": "Ella Johnson",
-        "imageurl": "https://i.ibb.co/TBqnGH0/image.png"
+        "imageurl": "https://i.ibb.co/TBqnGH0/image.png "
       },
       {
         "name": "Daniel Brown",
-        "imageurl": "https://i.ibb.co/0FD4gSJ/image.png"
+        "imageurl": "https://i.ibb.co/0FD4gSJ/image.png "
       }
     ],
     "date": "12/9/23",
@@ -69,10 +69,14 @@
      "club": "Art Club",
     "grade": "9",
     "members": [
+
+      
       {
         "name": "Sarah Miller",
+      
         "imageurl": "https://i.ibb.co/CpdJtpZ/image.png"
       },
+      
       {
         "name": "David Wilson",
         "imageurl": "https://i.ibb.co/LtyWhXN/image.png"
