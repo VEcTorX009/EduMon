@@ -1,7 +1,6 @@
 import { useUser } from "@clerk/nextjs";
 import Image from "next/image";
 import Link from "next/link";
-import { useRouter } from "next/router";
 import { fetchData } from "../components/fetchData";
 
 import React, { useEffect, useState } from "react";
@@ -17,9 +16,6 @@ export default function explore({ setLoading }) {
       });
   }, [data]);
   const [comment, setComment] = useState("");
-  const [showcomment, setShowcomment] = useState(false);
-  const [like, setLike] = useState(false);
-  const app = useRouter();
   const handlecomment = async (e) => {
     setLoading(true);
     setShowcomment(true);
@@ -51,7 +47,7 @@ export default function explore({ setLoading }) {
         postId: data[e]._id,
       }),
     });
-    console.log("semt")
+    console.log("semt");
 
     setLoading(false);
   };
@@ -123,13 +119,11 @@ export default function explore({ setLoading }) {
                         <Image
                           onClick={() => handlelike(i)}
                           src={"/like.svg"}
-                          className={" fadein " }
+                          className={" fadein "}
                           width={40}
                           height={40}
                         />
-                        <h1 className="text-md text-[#647C87]">
-                          { e.likes}
-                        </h1>
+                        <h1 className="text-md text-[#647C87]">{e.likes}</h1>
                       </div>
                       <div className="flex justify-center cursor-pointer z-100 items-center flex-col space-y-1">
                         <Image
