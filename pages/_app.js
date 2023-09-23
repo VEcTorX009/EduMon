@@ -3,11 +3,8 @@ import Navbar from "@/components/Navbar";
 import Sidebar from "@/components/Sidebar";
 import {
   ClerkProvider,
-  RedirectToSignIn,
   SignedIn,
   SignedOut,
-  UserButton,
-  UserProfile,
   useUser,
 } from "@clerk/nextjs";
 import { Suspense, useEffect, useState } from "react";
@@ -17,16 +14,15 @@ import Home from "@/components/Home";
 import Welcome from "@/components/Welcome";
 import Head from "next/head";
 
-
 export default function App({ Component, pageProps }) {
   return (
     <ClerkProvider>
       <SignedIn>
         <InnerApp Component={Component} pageProps={pageProps} />
       </SignedIn>
-          <SignedOut>
-            <Home />
-          </SignedOut>
+      <SignedOut>
+        <Home />
+      </SignedOut>
     </ClerkProvider>
   );
 }
@@ -60,23 +56,23 @@ function InnerApp({ Component, pageProps }) {
 
   useEffect(() => {
     const registeruser = async () => {
-      event.preventDefault()
-        setLoading(true);
-        const response = await fetch("/api/register", {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify({ name: user.fullName,
-            email: user.emailAddresses,
-            imageurl: user.imageUrl,}),
-        });
-        setLoading(false);
-    }
-    registeruser()
+      event.preventDefault();
+      setLoading(true);
+      const response = await fetch("/api/register", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          name: user.fullName,
+          email: user.emailAddresses,
+          imageurl: user.imageUrl,
+        }),
+      });
+      setLoading(false);
+    };
+    registeruser();
   }, []);
-  
-  
 
   return (
     <>
@@ -84,25 +80,25 @@ function InnerApp({ Component, pageProps }) {
         <title>EduMon</title>
         <link rel="icon" href="/icon.png" type="image/x-icon"></link>
       </Head>
-            <Suspense fallback={<CustomLoader/>}>
-              <div className="fadein">
-                {loading && <CustomLoader />}
-                <div className="flex bg-transparent flex-row fixed w-full  justify-between">
-                  <Sidebar />
-                  <Navbar setLoading={setLoading}/>
-                </div>
-                {shownotif && <Welcome name={"Som"} />}
-                <div className="flex  pl-[9.2vw] pt-[76.8px]">
-                  <Component
-                    setLoading={setLoading}
-                    setShownotif={setShownotif}
-                    setShowpopup={setShowpopup}
-                    showpopup={showpopup}
-                    {...pageProps}
-                  />
-                </div>
-              </div>
-              </Suspense>
+      <Suspense fallback={<CustomLoader />}>
+        <div className="fadein">
+          {loading && <CustomLoader />}
+          <div className="flex bg-transparent flex-row fixed w-full  justify-between">
+            <Sidebar />
+            <Navbar setLoading={setLoading} />
+          </div>
+          {shownotif && <Welcome name={"Som"} />}
+          <div className="flex  pl-[9.2vw] pt-[76.8px]">
+            <Component
+              setLoading={setLoading}
+              setShownotif={setShownotif}
+              setShowpopup={setShowpopup}
+              showpopup={showpopup}
+              {...pageProps}
+            />
+          </div>
+        </div>
+      </Suspense>
     </>
   );
 }
