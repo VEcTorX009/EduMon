@@ -5,6 +5,7 @@ export async function connectToDatabase() {
     "mongodb+srv://Som:0Br6xNijDmkKRQLm@edumon.vfsmdeq.mongodb.net/?retryWrites=true&w=majority",
     {
       retryWrites: true,
+      
       w: "majority",
       dbName: "EduMon",
     }
