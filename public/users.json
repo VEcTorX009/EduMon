@@ -1,0 +1,91 @@
+[
+  {
+    "name": "Som",
+    "email": [
+      {
+        "pathRoot": "/me/email_addresses",
+        "emailAddress": "aishwarysrivastava2006@gmail.com",
+        "linkedTo": [
+          {
+            "pathRoot": "",
+            "id": "idn_2UyhmmKWA3Qv7CFZkEGQw7k7NZD",
+            "type": "oauth_google"
+          }
+        ],
+        "id": "idn_2Uyhmmzq6316413Y0E1piKLmA4R",
+        "verification": {
+          "pathRoot": "",
+          "status": "verified",
+          "strategy": "from_oauth_google",
+          "nonce": null,
+          "externalVerificationRedirectURL": null,
+          "attempts": null,
+          "expireAt": "2023-09-08T13:41:09.423Z",
+          "error": null
+        }
+      }
+    ],
+    "imageurl": "https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL2ltYWdlcy5jbGVyay5kZXYvb2F1dGhfZ29vZ2xlL2ltZ18yVXlobkxFUTJQZjNFbVVrU295cmNpTUtRRFMucG5nIn0"
+  },
+  {
+    "name": "Vector",
+    "email": [
+      {
+        "pathRoot": "/me/email_addresses",
+        "emailAddress": "vectorx009@gmail.com",
+        "linkedTo": [
+          {
+            "pathRoot": "",
+            "id": "idn_2V5ALw94a59F3AcJQGr9VSv8eIo",
+            "type": "oauth_google"
+          }
+        ],
+        "id": "idn_2V5ALthdeVBQ2riJP862haDo9No",
+        "verification": {
+          "pathRoot": "",
+          "status": "verified",
+          "strategy": "from_oauth_google",
+          "nonce": null,
+          "externalVerificationRedirectURL": null,
+          "attempts": null,
+          "expireAt": "2023-09-07T20:03:23.647Z",
+          "error": null
+        }
+      }
+    ],
+    "imageurl": "https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL2ltYWdlcy5jbGVyay5kZXYvb2F1dGhfZ29vZ2xlL2ltZ18yVjVBTUxQNkhLZXhZTzNyUnRJZHNYekVJejYuanBlZyJ9"
+  },
+  {
+    "name": "yup D",
+    "email": [
+      {
+        "pathRoot": "/me/email_addresses",
+        "emailAddress": "xyikes009x@gmail.com",
+        "linkedTo": [
+          {
+            "pathRoot": "",
+            "id": "idn_2V5DPd0o4aidGOPcIBaQfYSkdux",
+            "type": "oauth_google"
+          }
+        ],
+        "id": "idn_2V5DPcyrlbU0aGJI71uu2yeWD7W",
+        "verification": {
+          "pathRoot": "",
+          "status": "verified",
+          "strategy": "from_oauth_google",
+          "nonce": null,
+          "externalVerificationRedirectURL": null,
+          "attempts": null,
+          "expireAt": "2023-09-07T20:16:41.442Z",
+          "error": null
+        }
+      }
+    ],
+    "imageurl": "https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL2ltYWdlcy5jbGVyay5kZXYvb2F1dGhfZ29vZ2xlL2ltZ18yVjVEUHdCTDkzOFNQVGVnWlM2ZFI0bDVQZTQucG5nIn0"
+  },
+  {
+    "name": "Som",
+    "email": "email",
+    "imageurl": "imageurl"
+  }
+]

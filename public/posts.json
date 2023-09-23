@@ -1,0 +1,187 @@
+[
+  {
+    "name": "Stanford Online School",
+    "heading": "Experience the Magic of Art at Our Annual Arts Exhibition",
+    "imageurl": "https://i.ibb.co/abc456/image.png",
+    "description": "Get ready to immerse yourself in the world of creativity and artistic expression at our annual Arts Exhibition. Our talented students will showcase their masterpieces, including paintings, sculptures, and more. Join us for an unforgettable artistic journey!",
+    "likes": 620,
+    "shares": 620,
+    "comments": [
+      {
+        "name": "City Montessori School",
+        "text": "Thank you for your enthusiasm! We can't wait to share the magic of art with you all.",
+        "imageurl": "https://i.ibb.co/y6KvMJs/image.png"
+      },
+      {
+        "name": "Som",
+        "imageurl": "https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL2ltYWdlcy5jbGVyay5kZXYvb2F1dGhfZ29vZ2xlL2ltZ18yVXlobkxFUTJQZjNFbVVrU295cmNpTUtRRFMucG5nIn0",
+        "text": "Looking forward to the exhibition! It's always a fantastic showcase of creativity."
+      }
+    ],
+    "registered": false
+  },
+  {
+    "name": "Oxford International School",
+    "heading": "Volunteer Opportunity: Join Our Beach Cleanup Initiative",
+    "imageurl": "https://i.ibb.co/5xC8qdp/image.png",
+    "description": "Make a positive impact on our environment by joining our Beach Cleanup Initiative. We are looking for enthusiastic volunteers to help clean up our local beaches and promote a cleaner, healthier coastline. Let's work together for a greener and cleaner tomorrow!",
+    "likes": 620,
+    "shares": 620,
+    "comments": [
+      {
+        "name": "City Montessori School",
+        "text": "Thank you for stepping up for the environment! Let's make a difference together.",
+        "imageurl": "https://i.ibb.co/y6KvMJs/image.png"
+      },
+      {
+        "name": "Som",
+        "imageurl": "https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL2ltYWdlcy5jbGVyay5kZXYvb2F1dGhfZ29vZ2xlL2ltZ18yVXlobkxFUTJQZjNFbVVrU295cmNpTUtRRFMucG5nIn0",
+        "text": "Count me in! I'm ready to help keep our beaches clean."
+      }
+    ],
+    "registered": false
+  },
+  {
+    "name": "Stanford Online School",
+    "heading": "Exploring the World of Robotics",
+    "imageurl": "https://i.ibb.co/TYj6CGM/image.png",
+    "description": "Our Tech Club members had an exciting day exploring the world of robotics. They learned about robot design, programming, and even had a friendly competition to test their robot's capabilities. It was a day filled with innovation and teamwork!",
+    "likes": 620,
+    "shares": 620,
+    "comments": [
+      {
+        "name": "Stanford Online School",
+        "text": "Our Tech Club members are future innovators! Keep up the great work.",
+        "imageurl": "https://i.ibb.co/y6KvMJs/image.png"
+      },
+      {
+        "name": "Som",
+        "imageurl": "https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL2ltYWdlcy5jbGVyay5kZXYvb2F1dGhfZ29vZ2xlL2ltZ18yVXlobkxFUTJQZjNFbVVrU295cmNpTUtRRFMucG5nIn0",
+        "text": "Innovation and teamwork are the keys to success in robotics."
+      }
+    ],
+    "registered": false
+  },
+  {
+    "name": "City Montessori School",
+    "heading": "Save the Date: Annual School Carnival",
+    "imageurl": "https://i.ibb.co/jkl345/image.png",
+    "description": "Mark your calendars for our Annual School Carnival! Join us for a day of fun, games, food, and entertainment. There will be exciting rides, delicious food stalls, and live performances. It's an event you won't want to miss!",
+    "likes": 620,
+    "shares": 620,
+    "comments": [
+      {
+        "name": "Stanford Online School",
+        "text": "The Annual School Carnival is always a blast! Can't wait for all the fun.",
+        "imageurl": "https://i.ibb.co/y6KvMJs/image.png"
+      },
+      {
+        "name": "Som",
+        "imageurl": "https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL2ltYWdlcy5jbGVyay5kZXYvb2F1dGhfZ29vZ2xlL2ltZ18yVXlobkxFUTJQZjNFbVVrU295cmNpTUtRRFMucG5nIn0",
+        "text": "I'm already excited about the delicious food stalls!"
+      }
+    ],
+    "registered": true
+  },
+  {
+    "name": "City Montessori School",
+    "heading": "Book Lovers Unite: Literary Club's Reading Marathon",
+    "imageurl": "https://i.ibb.co/mno678/image.png",
+    "description": "Calling all book lovers! Join the Literary Club's Reading Marathon, where we'll explore captivating books from various genres. Whether you enjoy fiction, non-fiction, or poetry, there's something for everyone. Let's embark on a literary journey together!",
+    "likes": 620,
+    "shares": 620,
+    "comments": [
+      {
+        "name": "City Montessori School",
+        "text": "Let's discover new worlds through the pages of books together!",
+        "imageurl": "https://i.ibb.co/y6KvMJs/image.png"
+      }
+    ],
+    "registered": true
+  },
+  {
+    "name": "City Montessori School",
+    "heading": "Discover the Wonders of Astronomy",
+    "imageurl": "https://i.ibb.co/pqr901/image.png",
+    "description": "The Science Club organized an astronomy night where students had the opportunity to observe celestial objects through telescopes. They learned about constellations, planets, and had a chance to gaze at the night sky. It was a night filled with wonder and awe!",
+    "likes": 620,
+    "shares": 620,
+    "comments": [
+      {
+        "name": "City Montessori School",
+        "text": "Exploring the cosmos is a breathtaking experience. Thank you for joining us!",
+        "imageurl": "https://i.ibb.co/y6KvMJs/image.png"
+      }
+    ],
+    "registered": true
+  },
+  {
+    "name": "Stanford Online School",
+    "heading": "Harmonious Melodies: Music Ensemble's Concert",
+    "imageurl": "https://i.ibb.co/stu234/image.png",
+    "description": "Experience the magic of harmonious melodies at the Music Ensemble's concert. Our talented musicians will showcase their musical prowess with captivating performances. Join us for an evening of enchanting music and soulful tunes!",
+    "likes": 620,
+    "shares": 620,
+    "comments": [
+      {
+        "name": "City Montessori School",
+        "text": "Music has the power to touch our souls. Get ready for a mesmerizing evening!",
+        "imageurl": "https://i.ibb.co/y6KvMJs/image.png"
+      }
+    ],
+    "registered": false
+  },
+  {
+    "name": "Stanford Online School",
+    "heading": "Coding Workshop: Building Web Applications",
+    "imageurl": "https://i.ibb.co/vwx567/image.png",
+    "description": "The Coding Club hosted a workshop on building web applications. Students had hands-on experience in web development, learning HTML, CSS, and JavaScript. They created their own interactive web projects. A great step toward becoming web developers!",
+    "likes": 620,
+    "shares": 620,
+    "comments": [
+      {
+        "name": "City Montessori School",
+        "text": "Coding opens doors to endless possibilities. Keep coding!",
+        "imageurl": "https://i.ibb.co/y6KvMJs/image.png"
+      }
+    ],
+    "registered": false
+  },
+  {
+    "name": "Oxford International School",
+    "heading": "Our New Sports Captain",
+    "imageurl": "https://i.ibb.co/K5y6mWj/image.png",
+    "description": "We are thrilled to announce the appointment of Alok Singh from class 12 as our new Sports Captain. Alok has demonstrated exceptional leadership qualities and outstanding performance in swimming. He has led numerous school teams to victory, and his dedication to sports is truly commendable. We are honored to have him continue the legacy of excellence at City Montessori School.",
+    "likes": 620,
+    "shares": 620,
+    "comments": [
+      {
+        "name": "City Montessori School",
+        "text": "Congratulations, Alok Singh! Your dedication to sports is inspiring.",
+        "imageurl": "https://i.ibb.co/y6KvMJs/image.png"
+      },
+      {
+        "name": "Som",
+        "imageurl": "https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL2ltYWdlcy5jbGVyay5kZXYvb2F1dGhfZ29vZ2xlL2ltZ18yVXlobkxFUTJQZjNFbVVrU295cmNpTUtRRFMucG5nIn0",
+        "text": "Alok, you'll lead with excellence. Congratulations!"
+      }
+    ],
+    "registered": false
+  },
+  {
+    "name": "Oxford International School",
+    "heading": "Congratulations to Our Science Olympiad Winners!",
+    "imageurl": "https://i.ibb.co/5vGK31k/image.png",
+    "description": "We are proud to announce that our students have excelled in the recent Science Olympiad competition. They have brought home several gold, silver, and bronze medals, showcasing their exceptional scientific knowledge and skills. Congratulations to all the winners and their dedicated mentors!",
+    "likes": 620,
+    "shares": 620,
+    "comments": [
+      {
+        "name": "City Montessori School",
+        "text": "Congratulations to our brilliant students and dedicated mentors!",
+        "imageurl": "https://i.ibb.co/y6KvMJs/image.png"
+      }
+    ],
+    "registered": false
+  }
+]

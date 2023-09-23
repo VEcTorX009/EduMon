@@ -1,0 +1,227 @@
+[
+  {
+    "title": "Science Competition",
+    "level": "International",
+    "club": "Science Club",
+    "grade": "12",
+    "members": [
+      {
+        "name": "Som Srivastava",
+        "imageurl": "https://i.ibb.co/LtyWhXN/image.png"
+      }
+    ],
+    "date": "20/5/23",
+    "school": "City Montessori School",
+    "mode": "Online",
+    "registered": false,
+    "details": "The Science Competition is an international event organized by the Science Club. It offers a platform for students to showcase their scientific knowledge and skills on a global stage. Participants can expect challenging questions and exciting scientific challenges.",
+    "about": "The Science Competition is open to students from all over the world who have a passion for science. It's a chance to test your scientific knowledge, problem-solving abilities, and teamwork skills. Don't miss this opportunity to compete with the best minds in science.",
+    "guests": "Renowned scientists and experts from various scientific fields will be our esteemed guests."
+  },
+  {
+    "title": "Math Olympiad",
+    "level": "National", "club": "Math Club",
+    "grade": "11",
+    "members": [
+      {
+        "name": "Alice Johnson",
+        "imageurl": "https://i.ibb.co/TBqnGH0/image.png"
+      },
+      {
+        "name": "Bob Smith",
+        "imageurl": "https://i.ibb.co/0FD4gSJ/image.png"
+      }
+    ],
+    "date": "15/6/23",
+    "school": "City Montessori School",
+    "mode": "Online",
+    "registered": false,
+    "details": "The Math Olympiad is a national math competition organized by the Science Club. It challenges students to solve complex mathematical problems and showcases their mathematical prowess.",
+    "about": "The Math Olympiad is open to all students with a passion for mathematics. It's a platform to test your mathematical skills and compete with other math enthusiasts from across the nation.",
+    "guests": "Distinguished mathematicians and educators will be our esteemed guests."
+  },
+  {
+    "title": "Debate Championship",
+    "level": "Regional",
+     "club": "Debate Club",
+    "grade": "11",
+    "members": [
+      {
+        "name": "Ella Johnson",
+        "imageurl": "https://i.ibb.co/TBqnGH0/image.png"
+      },
+      {
+        "name": "Daniel Brown",
+        "imageurl": "https://i.ibb.co/0FD4gSJ/image.png"
+      }
+    ],
+    "date": "12/9/23",
+    "school": "City Montessori School",
+    "mode": "Online",
+    "registered": false,
+    "details": "The Debate Championship is a regional debate competition hosted by the Science Club. It offers students a platform to enhance their public speaking and argumentative skills.",
+    "about": "The Debate Championship welcomes students with a passion for debate and public speaking. It's an opportunity to engage in meaningful discussions and develop your persuasive abilities.",
+    "guests": "Experienced debaters and public speaking experts will be our esteemed guests."
+  },
+  {
+    "title": "Illustration Competition",
+    "level": "Local",
+     "club": "Art Club",
+    "grade": "9",
+    "members": [
+      {
+        "name": "Sarah Miller",
+        "imageurl": "https://i.ibb.co/CpdJtpZ/image.png"
+      },
+      {
+        "name": "David Wilson",
+        "imageurl": "https://i.ibb.co/LtyWhXN/image.png"
+      }
+    ],
+    "date": "5/8/23",
+    "school": "Stanford Online School",
+    "mode": "Online",
+    "registered": false,
+    "details": "The Illustration Competition is a local event hosted by the Science Club. It encourages students to showcase their artistic skills through illustrations.",
+    "about": "The Illustration Competition is open to budding artists who wish to express their creativity through visual art. It's an opportunity to showcase your artistic talents and imagination.",
+    "guests": "Renowned artists and illustrators will be our esteemed guests."
+  },
+  {
+    "title": "Music Festival",
+    "level": "Local",
+    "club": "Music Club",
+    "grade": "10",
+    "members": [
+      {
+        "name": "Sophia Clark",
+        "imageurl": "https://i.ibb.co/TBqnGH0/image.png"
+      },
+      {
+        "name": "Michael Anderson",
+        "imageurl": "https://i.ibb.co/0FD4gSJ/image.png"
+      }
+    ],
+    "date": "18/10/23",
+    "school": "Stanford Online School",
+    "mode": "Online",
+    "registered": false,
+    "details": "The Music Festival is a local celebration of music hosted by the Science Club. It offers students a platform to showcase their musical talents and creativity.",
+    "about": "The Music Festival welcomes all music enthusiasts to come together and create harmonious melodies. It's an opportunity to share the joy of music with fellow musicians.",
+    "guests": "Renowned musicians and composers will be our esteemed guests."
+  },
+  {
+    "title": "Coding Competition",
+    "club": "Coding Club",
+    "level": "National",
+    "grade": "11",
+    "members": [
+      {
+        "name": "Oliver White",
+        "imageurl": "https://i.ibb.co/LtyWhXN/image.png"
+      },
+      {
+        "name": "Emma Harris",
+        "imageurl": "https://i.ibb.co/0FD4gSJ/image.png"
+      }
+    ],
+    "date": "7/11/23",
+    "school": "Oxford International School",
+    "mode": "Online",
+    "registered": false,
+    "details": "The Coding Competition is a national coding challenge hosted by the Science Club. It tests participants' programming skills and problem-solving abilities.",
+    "about": "The Coding Competition invites aspiring coders to showcase their coding prowess. It's an opportunity to excel in the world of programming and tech innovation.",
+    "guests": "Experienced programmers and tech experts will be our esteemed guests."
+  },
+  {
+    "title": "Environmental Awareness Campaign",
+    "level": "Local",
+    "club": "Environment Club",
+    "grade": "10",
+    "members": [
+      {
+        "name": "Liam Wilson",
+        "imageurl": "https://i.ibb.co/CpdJtpZ/image.png"
+      },
+      {
+        "name": "Ava Martin",
+        "imageurl": "https://i.ibb.co/LtyWhXN/image.png"
+      }
+    ],
+    "date": "25/11/23",
+    "school": "Oxford International School",
+    "mode": "Online",
+    "registered": false,
+    "details": "The Environmental Awareness Campaign is a local initiative by the Science Club to promote eco-friendly practices and conservation.",
+    "about": "The Environmental Awareness Campaign invites all students to join hands in protecting the environment. It's an opportunity to make a positive impact and create a sustainable future.",
+    "guests": "Environmental activists and conservationists will be our esteemed guests."
+  },
+  {
+    "title": "Drama Showcase",
+    "club": "Drama Club",
+    "level": "Local",
+    "grade": "9",
+    "members": [
+      {
+        "name": "Grace Robinson",
+        "imageurl": "https://i.ibb.co/CpdJtpZ/image.png"
+      },
+      {
+        "name": "William Turner",
+        "imageurl": "https://i.ibb.co/LtyWhXN/image.png"
+      }
+    ],
+    "date": "3/12/23",
+    "school": "Stanford Online School",
+    "mode": "Online",
+    "registered": false,
+    "details": "The Drama Showcase is a local theatrical event hosted by the Science Club. It provides a stage for students to express their creativity through acting.",
+    "about": "The Drama Showcase is a platform for budding actors and theater enthusiasts. It's an opportunity to bring stories to life on stage and captivate the audience.",
+    "guests": "Renowned theater directors and actors will be our esteemed guests."
+  },
+  {
+    "title": "Robotics Competition",
+    "level": "National",
+    "club": "Robotics Club",
+    "grade": "12",
+    "members": [
+      {
+        "name": "Lucas Smith",
+        "imageurl": "https://i.ibb.co/CpdJtpZ/image.png"
+      },
+      {
+        "name": "Sophie Turner",
+        "imageurl": "https://i.ibb.co/LtyWhXN/image.png"
+      }
+    ],
+    "date": "14/1/24",
+    "school": "Oxford International School",
+    "mode": "Online",
+    "registered": false,
+    "details": "The Robotics Competition is a national event hosted by the Science Club. It challenges students to design and build innovative robots for various tasks.",
+    "about": "The Robotics Competition is open to aspiring engineers and tech enthusiasts. It's an opportunity to unleash your creativity in the world of robotics and automation.",
+    "guests": "Expert roboticists and tech innovators will be our esteemed guests."
+  },
+  {
+    "title": "Spelling Bee",
+    "level": "Local",
+    "grade": "10",
+    "club": "Painting Club",
+    "members": [
+      {
+        "name": "Sophia Johnson",
+        "imageurl": "https://i.ibb.co/TBqnGH0/image.png"
+      },
+      {
+        "name": "Daniel Smith",
+        "imageurl": "https://i.ibb.co/0FD4gSJ/image.png"
+      }
+    ],
+    "date": "5/2/24",
+    "school": "Oxford International School",
+    "mode": "Online",
+    "registered": false,
+    "details": "The Spelling Bee is a local spelling competition organized by the Science Club. It tests participants' spelling and vocabulary skills.",
+    "about": "The Spelling Bee is open to all students who love words and language. It's a chance to showcase your linguistic talents and compete in a friendly word battle.",
+    "guests": "Language experts and lexicographers will be our esteemed guests."
+  }
+]

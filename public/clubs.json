@@ -1,0 +1,310 @@
+[
+  {
+    "name": "Science Club",
+    "grade": "12",
+    "about": "The Science Club at City Montessori School is dedicated to promoting a deep passion for scientific exploration and discovery among students. We provide a platform for students to engage in hands-on experiments, discussions, and research in various scientific disciplines.",
+    "category": "Science",
+    "members": [
+      {
+        "name": "Som Srivastava",
+        "imageurl": "https://i.ibb.co/LtyWhXN/image.png"
+      }
+    ],
+    "announcements": [
+      {
+        "heading": "Welcome Everyone to the Science Club!",
+        "description": "We are excited to welcome all students to the Science Club at City Montessori School. Join us in exploring the wonders of science and expanding your scientific horizons."
+      }
+    ],
+    "date": "20/5/23",
+    "school": "City Montessori School",
+    "sponsors": "None",
+    "registered": false
+  },
+  {
+    "name": "Math Club",
+    "grade": "11",
+    "about": "The Math Club at City Montessori School is a place where students with a love for mathematics can come together to solve challenging problems, participate in mathematical competitions, and discuss intriguing mathematical concepts.",
+    "category": "Science",
+    "members": [
+      {
+        "name": "Alice Johnson",
+        "imageurl": "https://i.ibb.co/gPS7HF5/image.png"
+      },
+      {
+        "name": "Bob Smith",
+        "imageurl": "https://i.ibb.co/CpdJtpZ/image.png"
+      }
+    ],
+    "announcements": [
+      {
+        "heading": "Join the Math Club for Exciting Math Adventures!",
+        "description": "Discover the beauty of mathematics and join us for exciting math adventures. Let's explore the world of numbers and equations together."
+      }
+    ],
+    "date": "15/6/23",
+    "school": "City Montessori School",
+    "sponsors": "None",
+    "registered": false
+  },
+  {
+    "name": "Chess Club",
+    "grade": "10",
+    "category": "Games",
+    "about": "The Chess Club at City Montessori School welcomes all chess enthusiasts to join us in mastering the game of strategy. Our club is dedicated to improving chess skills through practice, study, and friendly competitions.",
+    "members": [
+      {
+        "name": "Emily Davis",
+        "imageurl": "https://i.ibb.co/LtyWhXN/image.png"
+      },
+      {
+        "name": "John Lee",
+        "imageurl": "https://i.ibb.co/gPS7HF5/image.png"
+      }
+    ],
+    "announcements": [
+      {
+        "heading": "Join the Chess Club and Master the Game of Strategy!",
+        "description": "Chess is more than a game; it's a battle of wits and strategy. Join us to enhance your critical thinking and tactical skills."
+      }
+    ],
+    "date": "10/7/23",
+    "school": "City Montessori School",
+    "sponsors": "None",
+    "registered": true
+  },
+  {
+    "name": "Art Club",
+    "about": "The Art Club at City Montessori School is a creative hub for aspiring artists. We encourage students to explore various art forms, express their creativity, and develop their artistic talents.",
+    "grade": "9",
+    "category": "Arts",
+    "members": [
+      {
+        "name": "Sarah Miller",
+        "imageurl": "https://i.ibb.co/CpdJtpZ/image.png"
+      },
+      {
+        "name": "David Wilson",
+        "imageurl": "https://i.ibb.co/gPS7HF5/image.png"
+      }
+    ],
+    "announcements": [
+      {
+        "heading": "Unleash Your Creativity with the Art Club!",
+        "description": "Let your imagination run wild with the Art Club. Join us to explore the world of colors, shapes, and artistic expression."
+      }
+    ],
+    "date": "5/8/23",
+    "school": "City Montessori School",
+    "sponsors": "None",
+    "registered": false
+  },
+  {
+    "name": "Debate Club",
+    "about": "The Debate Club at City Montessori School is where students refine their speaking and critical thinking skills. Engage in intellectual discussions and sharpen your public speaking abilities.",
+    "grade": "11",
+    "category": "Communication",
+    "members": [
+      {
+        "name": "Ella Johnson",
+        "imageurl": "https://i.ibb.co/LtyWhXN/image.png"
+      },
+      {
+        "name": "Daniel Brown",
+        "imageurl": "https://i.ibb.co/gPS7HF5/image.png"
+      }
+    ],
+    "announcements": [
+      {
+        "heading": "Join the Debate Club and Improve Your Speaking Skills!",
+        "description": "Debate Club is your platform to engage in meaningful discussions and develop your persuasive and argumentative abilities."
+      }
+    ],
+    "date": "12/9/23",
+    "school": "City Montessori School",
+    "sponsors": "None",
+    "registered": false
+  },
+  {
+    "name": "Music Club",
+    "about": "The Music Club at City Montessori School invites music enthusiasts to join us in exploring the world of melodies. Experience the joy of making music and sharing harmonious tunes with fellow musicians.",
+    "grade": "10",
+    "category": "Arts",
+    "members": [
+      {
+        "name": "Sophia Clark",
+        "imageurl": "https://i.ibb.co/CpdJtpZ/image.png"
+      },
+      {
+        "name": "Michael Anderson",
+        "imageurl": "https://i.ibb.co/gPS7HF5/image.png"
+      }
+    ],
+    "announcements": [
+      {
+        "heading": "Join the Music Club and Explore the World of Melodies!",
+        "description": "Discover the beauty of music and join us in creating harmonious compositions and sharing the joy of melodies."
+      }
+    ],
+    "date": "18/10/23",
+    "school": "City Montessori School",
+    "sponsors": "None",
+    "registered": false
+  },
+  {
+    "name": "Coding Club",
+    "about": "The Coding Club at City Montessori School is dedicated to teaching coding, software development, and tech projects. Join us to learn, code, and build innovative technology solutions.",
+    "grade": "11",
+    "category": "Technology",
+    "members": [
+      {
+        "name": "Oliver White",
+        "imageurl": "https://i.ibb.co/LtyWhXN/image.png"
+      },
+      {
+        "name": "Emma Harris",
+        "imageurl": "https://i.ibb.co/gPS7HF5/image.png"
+      }
+    ],
+    "announcements": [
+      {
+        "heading": "Join the Coding Club and Dive into the World of Programming!",
+        "description": "Coding is the language of the future. Join us to unlock the world of programming and tech innovation."
+      }
+    ],
+    "date": "7/11/23",
+    "school": "City Montessori School",
+    "sponsors": "None",
+    "registered": false
+  },
+  {
+    "name": "Environmental Club",
+    "about": "The Environmental Club at City Montessori School is dedicated to environmental conservation. Join us to take action, protect the planet, and create a sustainable future.",
+    "grade": "10",
+    "category": "Environment",
+    "members": [
+      {
+        "name": "Liam Wilson",
+        "imageurl": "https://i.ibb.co/CpdJtpZ/image.png"
+      },
+      {
+        "name": "Ava Martin",
+        "imageurl": "https://i.ibb.co/gPS7HF5/image.png"
+      }
+    ],
+    "announcements": [
+      {
+        "heading": "Join the Environmental Club and Save the Planet!",
+        "description": "Our planet needs heroes. Join us to make a difference, protect the environment, and create a sustainable world for all."
+      }
+    ],
+    "date": "25/11/23",
+    "school": "Stanford Online School",
+    "sponsors": "None",
+    "registered": true
+  },
+  {
+    "name": "Drama Club",
+    "about": "The Drama Club at City Montessori School is where students bring stories to life on stage. Act, perform, and express your creativity through theatrical productions.",
+    "grade": "9",
+    "category": "Arts",
+    "members": [
+      {
+        "name": "Grace Robinson",
+        "imageurl": "https://i.ibb.co/CpdJtpZ/image.png"
+      },
+      {
+        "name": "William Turner",
+        "imageurl": "https://i.ibb.co/gPS7HF5/image.png"
+      }
+    ],
+    "announcements": [
+      {
+        "heading": "Join the Drama Club and Bring Stories to Life on Stage!",
+        "description": "Unlock your acting talents and join us in producing memorable theatrical performances. Let's create magic on stage together."
+      }
+    ],
+    "date": "3/12/23",
+    "school": "Stanford Online School",
+    "sponsors": "None",
+    "registered": false
+  },
+  {
+    "name": "Robotics Club",
+    "grade": "12",
+    "about": "The Robotics Club at City Montessori School is where innovation meets technology. Join us to explore the world of robotics, engineer innovative machines, and create gadgets for the future.",
+    "category": "Technology",
+    "members": [
+      {
+        "name": "Lucas Smith",
+        "imageurl": "https://i.ibb.co/LtyWhXN/image.png"
+      },
+      {
+        "name": "Sophie Turner",
+        "imageurl": "https://i.ibb.co/gPS7HF5/image.png"
+      }
+    ],
+    "announcements": [
+      {
+        "heading": "Join the Robotics Club and Build Robots of the Future!",
+        "description": "Unlock the potential of robotics, learn engineering, and build robots that will shape the future. Join us in the journey of innovation."
+      }
+    ],
+    "date": "14/1/24",
+    "school": "Stanford Online School",
+    "sponsors": "None",
+    "registered": true
+  },
+  {
+    "name": "Astronomy Club",
+    "about": "The Astronomy Club at City Montessori School invites students to explore the universe. Discover the wonders of the cosmos through stargazing sessions and astronomical discussions.",
+    "grade": "11",
+    "category": "Science",
+    "members": [
+      {
+        "name": "Sophie Anderson",
+        "imageurl": "https://i.ibb.co/CpdJtpZ/image.png"
+      },
+      {
+        "name": "James Brown",
+        "imageurl": "https://i.ibb.co/gPS7HF5/image.png"
+      }
+    ],
+    "announcements": [
+      {
+        "heading": "Explore the Universe with the Astronomy Club!",
+        "description": "Join us on a celestial journey as we gaze at the stars, planets, and galaxies. Let's unlock the mysteries of the cosmos together."
+      }
+    ],
+    "date": "10/2/24",
+    "school": "Oxford International School",
+    "sponsors": "None",
+    "registered": false
+  },
+  {
+    "name": "Painting Club",
+    "about": "The Painting Club at City Montessori School is a canvas for artistic expression. Learn different painting techniques, unleash your creativity, and create beautiful artworks with fellow artists.",
+    "grade": "9",
+    "category": "Arts",
+    "members": [
+      {
+        "name": "Lily Johnson",
+        "imageurl": "https://i.ibb.co/CpdJtpZ/image.png"
+      },
+      {
+        "name": "Noah Davis",
+        "imageurl": "https://i.ibb.co/gPS7HF5/image.png"
+      }
+    ],
+    "announcements": [
+      {
+        "heading": "Express Yourself through Art with the Painting Club!",
+        "description": "Join us to explore the world of colors, brushstrokes, and artistic expression. Let your creativity flow on the canvas."
+      }
+    ],
+    "date": "20/4/24",
+    "school": "Oxford International School",
+    "sponsors": "None",
+    "registered": false
+  }
+]

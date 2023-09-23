@@ -1,0 +1,190 @@
+[
+  {
+    "title": "Science Workshop",
+    "grade": "12",
+    "guests": "Dr. John Samuel",
+    "members": [
+      {
+        "name": "Som Srivastava",
+        "imageurl": "https://i.imgur.com/6P3FnpY.jpg"
+      }
+    ],
+    "announcements": [
+      {
+        "heading": "Welcome Everyone to the Science Workshop!",
+        "description": "We are the leading science society of this generation."
+      }
+    ],
+    "date": "20/5/23",
+    "school": "City Montessori School",
+    "mode": "Online",
+    "registered": true,
+    "club": "Science Club",
+    "details": "Join us for an engaging Science Workshop and explore the wonders of the scientific world.",
+    "about": "This workshop is open to all students curious about science and its impact on our lives."
+  },
+  {
+    "title": "Design Workshop",
+    "grade": "12",
+    "guests": "Dr. John Samuel",
+    "members": [
+      {
+        "name": "Som Srivastava",
+        "imageurl": "https://i.imgur.com/6P3FnpY.jpg"
+      }
+    ],
+    "announcements": [
+      {
+        "heading": "Welcome Everyone to the Design Workshop!",
+        "description": "We are the leading Design society of this generation."
+      }
+    ],
+    "date": "20/5/23",
+    "school": "City Montessori School",
+    "mode": "Online",
+    "registered": false,
+    "club": "Design Club",
+    "details": "Discover the world of design and its creative applications in our daily lives.",
+    "about": "This workshop is open to all students interested in design and its role in shaping our world."
+  },
+  {
+    "title": "Mathematics Workshop",
+    "grade": "11",
+    "guests": "Prof. Emily Johnson",
+    "members": [
+      {
+        "name": "Alice Smith",
+        "imageurl": "https://i.imgur.com/YBtKsY3.jpg"
+      },
+      {
+        "name": "Bob Wilson",
+        "imageurl": "https://i.imgur.com/pRk0kHl.jpg"
+      }
+    ],
+    "announcements": [
+      {
+        "heading": "Join the Mathematics Workshop!",
+        "description": "Explore advanced mathematical concepts and problem-solving techniques with our distinguished guest speaker."
+      }
+    ],
+    "date": "15/6/23",
+    "school": "Oxford International School",
+    "mode": "Online",
+    "registered": false,
+    "club": "Mathematics Club",
+    "details": "Participate in our Mathematics Workshop and enhance your mathematical knowledge with experts in the field.",
+    "about": "This workshop is open to all students passionate about mathematics and its applications."
+  },
+  {
+    "title": "Environmental Science",
+    "grade": "10",
+    "guests": "Dr. Sarah Davis",
+    "members": [
+      {
+        "name": "Liam Martin",
+        "imageurl": "https://i.imgur.com/YBtKsY3.jpg"
+      },
+      {
+        "name": "Ava Turner",
+        "imageurl": "https://i.imgur.com/pRk0kHl.jpg"
+      }
+    ],
+    "announcements": [
+      {
+        "heading": "Join the Environmental Science Workshop!",
+        "description": "Learn about environmental conservation, biodiversity, and sustainability from our expert guest speaker."
+      }
+    ],
+    "date": "25/11/23",
+    "school": "Stanford Online School",
+    "mode": "Online",
+    "registered": false,
+    "club": "Environmental Science Club",
+    "details": "Explore the world of environmental science and its critical role in preserving our planet.",
+    "about": "This workshop is open to all students interested in environmental issues and solutions."
+  },
+  {
+    "title": "Java Workshop",
+    "grade": "11",
+    "guests": "Mr. Oliver White",
+    "members": [
+      {
+        "name": "Emma Harris",
+        "imageurl": "https://i.imgur.com/YBtKsY3.jpg"
+      },
+      {
+        "name": "Sophie Turner",
+        "imageurl": "https://i.imgur.com/pRk0kHl.jpg"
+      }
+    ],
+    "announcements": [
+      {
+        "heading": "Participate in the Java Workshop!",
+        "description": "Learn coding fundamentals, programming languages, and coding best practices from our experienced instructor."
+      }
+    ],
+    "date": "7/11/23",
+    "school": "Oxford International School",
+    "mode": "Online",
+    "registered": false,
+    "club": "Programming Club",
+    "details": "Embark on a coding journey in our Java Workshop and develop essential programming skills.",
+    "about": "This workshop is open to all students interested in coding and software development."
+  },
+  {
+    "title": "Literary Workshop",
+    "grade": "9",
+    "guests": "Author Sophia Clark",
+    "members": [
+      {
+        "name": "Grace Robinson",
+        "imageurl": "https://i.imgur.com/8W0DqLD.jpg"
+      },
+      {
+        "name": "William Turner",
+        "imageurl": "https://i.imgur.com/3vdmX1z.jpg"
+      }
+    ],
+    "announcements": [
+      {
+        "heading": "Join the Literary Workshop!",
+        "description": "Engage in creative writing, literary analysis, and storytelling with our special guest author."
+      }
+    ],
+    "date": "3/12/23",
+    "school": "Stanford Online School",
+    "mode": "Online",
+    "registered": false,
+    "club": "Literary Club",
+    "details": "Unleash your creativity in our Literary Workshop and explore the art of storytelling and writing.",
+    "about": "This workshop is open to all students who appreciate literature and want to enhance their writing skills."
+  },
+  {
+    "title": "Dance Workshop",
+    "grade": "9",
+    "guests": "Author Sophia Clark",
+    "members": [
+      {
+        "name": "Grace Robinson",
+        "imageurl": "https://i.imgur.com/8W0DqLD.jpg"
+      },
+      {
+        "name": "William Turner",
+        "imageurl": "https://i.imgur.com/3vdmX1z.jpg"
+      }
+    ],
+    "announcements": [
+      {
+        "heading": "Join the Dance Workshop!",
+        "description": "Engage in creative dance, choreography, and storytelling with our special guest author."
+      }
+    ],
+    "date": "3/12/23",
+    "school": "Stanford Online School",
+    "mode": "Online",
+    "registered": false,
+    "club": "Dance Club",
+    "details": "Express yourself through dance in our Dance Workshop and explore the world of movement and rhythm.",
+    "about": "This workshop is open to all students who love to dance and want to explore their artistic side."
+  }
+]

@@ -1,0 +1,170 @@
+[
+  {
+    "title": "Science Research Webinar",
+    "grade": "12",
+    "members": [
+      {
+        "name": "Emma Harris",
+        "imageurl": "https://i.imgur.com/YCj8tWU.jpg"
+      },
+      {
+        "name": "Sophie Turner",
+        "imageurl": "https://i.imgur.com/ZlfUxYE.jpg"
+      }
+    ],
+    "guests": "Dr. John Samuel",
+    "announcements": [
+      {
+        "heading": "Welcome Everyone to the Science Webinar!",
+        "description": "We are the leading science society of this generation."
+      }
+    ],
+    "date": "20/5/23",
+    "school": "City Montessori School",
+    "mode": "Online",
+    "registered": false,
+    "club": "Science Club",
+    "details": "Join us for an exciting Science Research Webinar where you'll explore the latest scientific discoveries and breakthroughs.",
+    "about": "This webinar is open to all students interested in science and research. Don't miss this opportunity to learn from the best in the field!"
+  },
+  {
+    "title": "AI Webinar",
+    "grade": "12",
+    "members": [
+      {
+        "name": "Emma Harris",
+        "imageurl": "https://i.imgur.com/sY82NPF.jpg"
+      },
+      {
+        "name": "Sophie Turner",
+        "imageurl": "https://i.imgur.com/iKFvT3g.jpg"
+      }
+    ],
+    "guests": "Dr. John Samuel",
+    "announcements": [
+      {
+        "heading": "Welcome Everyone to the AI Webinar!",
+        "description": "We are the leading AI society of this generation."
+      }
+    ],
+    "date": "20/5/23",
+    "school": "City Montessori School",
+    "mode": "Online",
+    "registered": false,
+    "club": "Science Club",
+    "details": "Join us for an informative AI Webinar where you'll dive into the world of artificial intelligence and its applications.",
+    "about": "This webinar is open to all students interested in AI and its potential to shape the future."
+  },
+  {
+    "title": "Mathematics Symposium",
+    "members": [
+      {
+        "name": "Emma Harris",
+        "imageurl": "https://i.imgur.com/v2ZrE2U.jpg"
+      },
+      {
+        "name": "Sophie Turner",
+        "imageurl": "https://i.imgur.com/AyBfdIN.jpg"
+      }
+    ],
+    "grade": "11",
+    "guests": "Professor John",
+    "announcements": [
+      {
+        "heading": "Join the Mathematics Symposium!",
+        "description": "Explore advanced mathematical concepts and theories with our distinguished guest speaker."
+      }
+    ],
+    "date": "15/6/23",
+    "school": "Oxford International School",
+    "mode": "Online",
+    "registered": false,
+    "club": "Math Club",
+    "details": "Participate in our Mathematics Symposium and enhance your mathematical knowledge with experts in the field.",
+    "about": "This symposium is open to all students passionate about mathematics. Don't miss this opportunity to expand your horizons!"
+  },
+  {
+    "title": "Chess Webinar",
+    "members": [
+      {
+        "name": "Emma Harris",
+        "imageurl": "https://i.imgur.com/YO6tK87.jpg"
+      },
+      {
+        "name": "Sophie Turner",
+        "imageurl": "https://i.imgur.com/rXo1k4S.jpg"
+      }
+    ],
+    "grade": "10",
+    "guests": "Dr. Sarah Davis",
+    "announcements": [
+      {
+        "heading": "Join the Chess Webinar!",
+        "description": "Learn about the importance of Chess Tactics and sustainable practices from our expert speaker."
+      }
+    ],
+    "date": "25/11/23",
+    "school": "Greenfield High School",
+    "mode": "Online",
+    "registered": false,
+    "club": "Chess Club",
+    "details": "Discover the strategic world of chess and its significance in cognitive development and sustainability.",
+    "about": "This webinar is open to all chess enthusiasts and those curious about the game's benefits."
+  },
+  {
+    "title": "Data Science Webinar",
+    "members": [
+      {
+        "name": "Emma Harris",
+        "imageurl": "https://i.imgur.com/VBAMLmK.jpg"
+      },
+      {
+        "name": "Sophie Turner",
+        "imageurl": "https://i.imgur.com/HuTfqNW.jpg"
+      }
+    ],
+    "grade": "11",
+    "guests": "Mr. Oliver White",
+    "announcements": [
+      {
+        "heading": "Participate in the Data Science Webinar!",
+        "description": "Learn Data Science techniques and develop Data Science skills with our experienced instructor."
+      }
+    ],
+    "date": "7/11/23",
+    "school": "Oxford International School",
+    "mode": "Online",
+    "registered": false,
+    "club": "Coding Club",
+    "details": "Get hands-on experience in Data Science and explore the world of data-driven insights and solutions.",
+    "about": "This webinar is open to all students interested in data and its potential to transform industries."
+  },
+  {
+    "title": "Literary Discussion Forum",
+    "members": [
+      {
+        "name": "Emma Harris",
+        "imageurl": "https://i.imgur.com/8MVKldW.jpg"
+      },
+      {
+        "name": "Sophie Turner",
+        "imageurl": "https://i.imgur.com/iVxwF7O.jpg"
+      }
+    ],
+    "grade": "9",
+    "guests": "Author Sophia Clark",
+    "announcements": [
+      {
+        "heading": "Join the Literary Discussion Forum!",
+        "description": "Engage in thought-provoking discussions about literature with our special guest author."
+      }
+    ],
+    "date": "3/12/23",
+    "school": "Greenfield High School",
+    "mode": "Online",
+    "registered": false,
+    "club": "Art Club",
+    "details": "Immerse yourself in the world of literature and engage in deep discussions on literary works.",
+    "about": "This forum is open to all book lovers and those who appreciate the art of storytelling."
+  }
+]
