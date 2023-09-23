@@ -17,6 +17,7 @@
       }
     ],
     "date": "20/5/23",
+
     "school": "City Montessori School",
     "sponsors": "None",
     "registered": false
@@ -73,6 +74,7 @@
     "sponsors": "None",
     "registered": true
   },
+
   {
     "name": "Art Club",
     "about": "The Art Club at City Montessori School is a creative hub for aspiring artists. We encourage students to explore various art forms, express their creativity, and develop their artistic talents.",
@@ -126,6 +128,7 @@
     "registered": false
   },
   {
+    
     "name": "Music Club",
     "about": "The Music Club at City Montessori School invites music enthusiasts to join us in exploring the world of melodies. Experience the joy of making music and sharing harmonious tunes with fellow musicians.",
     "grade": "10",
