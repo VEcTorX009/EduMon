@@ -15,8 +15,7 @@ export async function getStaticPaths() {
 
 export async function getStaticProps({ params }) {
   const school = data.find(
-    (school) =>
-      school.name.replace(/\s/g, "").toLowerCase() === params.slug
+    (school) => school.name.replace(/\s/g, "").toLowerCase() === params.slug
   );
 
   return {
