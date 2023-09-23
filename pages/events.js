@@ -50,7 +50,6 @@ export default function events({ setLoading }) {
       "Dec",
     ];
 
-    // Create an array of suffixes for days (st, nd, rd, th)
     const daySuffix =
       day === 1 || day === 21 || day === 31
         ? "st"
@@ -60,7 +59,6 @@ export default function events({ setLoading }) {
         ? "rd"
         : "th";
 
-    // Format the date string
     const formattedDate = `${day}${daySuffix} ${monthNames[month - 1]} ${year}`;
 
     return formattedDate;
