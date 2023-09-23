@@ -14,17 +14,14 @@ export default function Details({ type, temp }) {
 
   const app = useRouter();
   function formatDate(inputDate) {
-    // Split the input date using slashes and convert it to an array [day, month, year]
     const dateParts = inputDate.split("/").map((part) => parseInt(part, 10));
 
     if (dateParts.length !== 3) {
-      return "Invalid date format"; // Handle invalid input format
+      return "Invalid date format";
     }
 
-    // Extract day, month, and year from the array
     const [day, month, year] = dateParts;
 
-    // Define an array of month names for formatting
     const monthNames = [
       "Jan",
       "Feb",
@@ -40,7 +37,6 @@ export default function Details({ type, temp }) {
       "Dec",
     ];
 
-    // Create an array of suffixes for days (st, nd, rd, th)
     const daySuffix =
       day === 1 || day === 21 || day === 31
         ? "st"
@@ -56,7 +52,7 @@ export default function Details({ type, temp }) {
     return formattedDate;
   }
   const join = async () => {
-    const finaldata = { clubName: data.name || data.title, type: type }; // Replace with the actual club name
+    const finaldata = { clubName: data.name || data.title, type: type };
     const response = await fetch("/api/join", {
       method: "POST",
       headers: {
