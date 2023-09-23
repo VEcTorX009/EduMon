@@ -1,48 +1,56 @@
 import Link from "next/link";
 import { useEffect, useState } from "react";
-import {fetchData} from "../../../components/fetchData"
+import { fetchData } from "../../../components/fetchData";
 
 export default function Home() {
-  const [widata, setData] = useState([])
+  const [widata, setData] = useState([]);
   useEffect(() => {
-    Promise.all([
-      fetchData("webinars"),
-    ]).then(([widata]) => {
-      setData(widata);
-    }).catch(error => {
-      console.error("Error fetching data:", error);
-    });
-    (widata)
-  
-
-  }, [])
+    Promise.all([fetchData("webinars")])
+      .then(([widata]) => {
+        setData(widata);
+      })
+      .catch((error) => {
+        console.error("Error fetching data:", error);
+      });
+    widata;
+  }, []);
   function formatDate(inputDate) {
-  // Split the input date using slashes and convert it to an array [day, month, year]
-  const dateParts = inputDate.split('/').map(part => parseInt(part, 10));
+    const dateParts = inputDate.split("/").map((part) => parseInt(part, 10));
 
-  if (dateParts.length !== 3) {
-    return 'Invalid date format'; // Handle invalid input format
+    if (dateParts.length !== 3) {
+      return "Invalid date format";
+    }
+
+    const [day, month, year] = dateParts;
+
+    const monthNames = [
+      "Jan",
+      "Feb",
+      "Mar",
+      "Apr",
+      "May",
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec",
+    ];
+
+    const daySuffix =
+      day === 1 || day === 21 || day === 31
+        ? "st"
+        : day === 2 || day === 22
+        ? "nd"
+        : day === 3 || day === 23
+        ? "rd"
+        : "th";
+
+    const formattedDate = `${day}${daySuffix} ${monthNames[month - 1]} ${year}`;
+
+    return formattedDate;
   }
-
-  // Extract day, month, and year from the array
-  const [day, month, year] = dateParts;
-
-  // Define an array of month names for formatting
-  const monthNames = [
-    'Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun',
-    'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'
-  ];
-
-  // Create an array of suffixes for days (st, nd, rd, th)
-  const daySuffix = (day === 1 || day === 21 || day === 31) ? 'st' :
-                    (day === 2 || day === 22) ? 'nd' :
-                    (day === 3 || day === 23) ? 'rd' : 'th';
-
-  // Format the date string
-  const formattedDate = `${day}${daySuffix} ${monthNames[month - 1]} ${year}`;
-
-  return formattedDate;
-}
   return (
     <div className="flex   flex-col w-full space-y-3 h-full justify-center p-7 text-white">
       <div className="flex flex-col space-y-2">

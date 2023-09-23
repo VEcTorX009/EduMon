@@ -2,7 +2,7 @@ import data from "../../../public/webinars.json";
 import Details from "@/components/Details";
 
 export default function Webinars({ webinar }) {
-  (webinar)
+  webinar;
   return <Details type={"webinar"} temp={webinar} />;
 }
 
